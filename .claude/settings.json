@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(./**)",
+      "Edit(./**)",
+      "Bash(zsh *)",
+      "Bash(npm run *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git * main)",
+      "Bash(* --version)",
+      "Bash(* --help *)",
+      "Bash(source:*)",
+      "Bash(curl:*)",
+      "WebFetch(domain:github.com)"
+    ],
+    "deny": [
+      "Bash(git push *)"
+    ]
+  }
+}
